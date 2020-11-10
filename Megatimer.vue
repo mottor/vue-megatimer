@@ -58,8 +58,7 @@ export default {
       const script = document.createElement("script");
       script.src = "//megatimer.ru/timer/timer.min.js?v=1";
       script.onload = this.onTimerLibraryLoad;
-      const parentElement =
-          document.head || document.getElementsByTagName("head")[0];
+      const parentElement = document.head || document.body;
       parentElement.appendChild(script);
     },
     onTimerLibraryLoad() {
