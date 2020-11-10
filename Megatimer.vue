@@ -55,10 +55,10 @@ export default {
       this.loadTimerLibrary();
     },
     loadTimerLibrary() {
-      var script = document.createElement("script");
+      const script = document.createElement("script");
       script.src = "//megatimer.ru/timer/timer.min.js?v=1";
       script.onload = this.onTimerLibraryLoad;
-      var parentElement =
+      const parentElement =
           document.head || document.getElementsByTagName("head")[0];
       parentElement.appendChild(script);
     },
