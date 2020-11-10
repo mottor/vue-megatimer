@@ -5,7 +5,7 @@ Vue.js component for megatimer.ru
 ### Typical use:
 
 ```
-<Megatimer v-if="showTimers" id="5e2b2a4e7a93d12d3d435b12300872dc" />
+<Megatimer id="118d45b233313722c204e30671ef5bd1" />
 ```
 
 ### Demo
